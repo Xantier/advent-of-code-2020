@@ -25,6 +25,7 @@ defmodule AdventOfCodeWeb.Router do
     get "/1", ApiControllerOne, :one_one
     get "/1/2", ApiControllerOne, :one_two
     get "/2", ApiControllerTwo, :two_one
+    get "/2/2", ApiControllerTwo, :two_two
   end
 
   # Other scopes may use custom stacks.

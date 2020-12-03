@@ -23,7 +23,7 @@ defmodule AdventOfCodeWeb.ApiControllerOne do
       end
     end
 
-    Path.expand("lib/advent_of_code/inputs/one/numbers.csv")
+    Path.expand("lib/advent_of_code/inputs/_01/numbers.csv")
       |> Path.absname
       |> File.read!
       |> String.split("\n")
